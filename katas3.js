@@ -85,7 +85,7 @@ function kata4() {
 function kata5() {
     // implemente o código do kata 5 aqui
     let arrayResult = [];
-    for (let i = -25; i <=25; i+=2){
+    for (let i = 25; i >=-25; i-=2){
         arrayResult.push(i);
     }
     return showResults(arrayResult, 5);
