@@ -32,7 +32,9 @@ function kata1() {
     for (let i = 1; i <=25; i++){
         arrayResult.push(i);
     }
-    return showResults(arrayResult, 1);
+    showResults(arrayResult, 1);
+
+    return arrayResult;
 }
     kata1();
 
@@ -46,7 +48,10 @@ function kata2() {
     for (let i = 25; i >= 1; i--){
         arrayResult.push(i);
     }
-    return showResults(arrayResult, 2);
+
+    showResults(arrayResult, 2);
+
+    return arrayResult;
 }
     kata2();
 
@@ -60,7 +65,10 @@ function kata3() {
     for (let i = -1; i >= -25; i--){
         arrayResult.push(i);
     }
-    return showResults(arrayResult, 3);
+
+    showResults(arrayResult, 3);
+
+    return arrayResult;
 }
     kata3();
 
@@ -74,7 +82,10 @@ function kata4() {
     for (let i = -25; i <= -1; i++){
         arrayResult.push(i);
     }
-    return showResults(arrayResult, 4);
+
+    showResults(arrayResult, 4);
+
+    return arrayResult;
 }
     kata4();
 
@@ -88,7 +99,10 @@ function kata5() {
     for (let i = 25; i >=-25; i-=2){
         arrayResult.push(i);
     }
-    return showResults(arrayResult, 5);
+    
+    showResults(arrayResult, 5);
+    
+    return arrayResult;
 }
     kata5();
 
@@ -104,7 +118,10 @@ function kata6() {
             arrayResult.push(i);
         }
     }
-    return showResults(arrayResult, 6);
+
+    showResults(arrayResult, 6);
+
+    return arrayResult;
 }
     kata6();
 
@@ -120,7 +137,10 @@ function kata7() {
             arrayResult.push(i);
         } 
     }
-    return showResults(arrayResult, 7);
+
+    showResults(arrayResult, 7);
+
+    return arrayResult;
 }
     kata7();
 
@@ -136,7 +156,10 @@ function kata8() {
             arrayResult.push(i);
         } 
     }
-    return showResults(arrayResult, 8);
+
+    showResults(arrayResult, 8);
+
+    return arrayResult;
 }
     kata8();
 
@@ -152,7 +175,10 @@ function kata9() {
             arrayResult.push(i);
         } 
     }
-    return showResults(arrayResult, 9);
+
+    showResults(arrayResult, 9);
+
+    return arrayResult;
 }
     kata9();
 
@@ -162,7 +188,10 @@ function kata9() {
 
 function kata10() {
     // implemente o código do kata 10 aqui
-    return showResults(sampleArray, 10);
+
+    showResults(sampleArray, 10);
+
+    return sampleArray;
 }
     kata10();
 
@@ -178,7 +207,10 @@ function kata11() {
             arrayResult.push(sampleArray[i]);
         } 
     }
-    return showResults(arrayResult, 11);
+
+    showResults(arrayResult, 11);
+
+    return arrayResult;
 }
     kata11();
 
@@ -194,7 +226,10 @@ function kata12() {
             arrayResult.push(sampleArray[i]);
         } 
     }
-    return showResults(arrayResult, 12);
+
+    showResults(arrayResult, 12);
+
+    return arrayResult;
 }
     kata12();
 
@@ -210,7 +245,10 @@ function kata13() {
             arrayResult.push(sampleArray[i]);
         } 
     }
-    return showResults(arrayResult, 13);
+
+    showResults(arrayResult, 13);
+
+    return arrayResult;
 }
     kata13();
 
@@ -224,7 +262,10 @@ function kata14() {
     for (let i = 0; i <= sampleArray.length-1; i++){
         arrayResult.push(sampleArray[i]*sampleArray[i]);
     }
-    return showResults(arrayResult, 14);
+
+    showResults(arrayResult, 14);
+
+    return arrayResult;
 }
     kata14();
 
@@ -240,7 +281,10 @@ function kata15() {
         aux += i;
     }
     arrayResult.push(aux);
-    return showResults(arrayResult, 15);
+
+    showResults(arrayResult, 15);
+
+    return arrayResult;
 }
     kata15();
 
@@ -256,7 +300,10 @@ function kata16() {
         aux += sampleArray[i];
     }
     arrayResult.push(aux);
-    return showResults(arrayResult, 16);
+
+    showResults(arrayResult, 16);
+
+    return arrayResult;
 }
     kata16();
 
@@ -277,7 +324,10 @@ function kata17() {
         }
     }
     arrayResult.push(menor);
-    return showResults(arrayResult, 17);
+
+    showResults(arrayResult, 17);
+
+    return arrayResult;
 }
     kata17();
 
@@ -298,7 +348,10 @@ function kata18() {
         }
     }
     arrayResult.push(maior);
-    return showResults(arrayResult, 18);
+
+    showResults(arrayResult, 18);
+
+    return arrayResult;
 }
     kata18();
 
