@@ -1,6 +1,7 @@
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 
 function showResults(result, numKata){
+    // Show Results Katas
     let containerKata = document.createElement("Div");
     containerKata.className = "containerKata";
 
@@ -16,18 +17,18 @@ function showResults(result, numKata){
     let textResultItem = document.createTextNode(result.join(', '));
     newResultItem.appendChild(textResultItem);
 
-    containerKata.appendChild(newResultItem);            
-    
+    containerKata.appendChild(newResultItem);
+
     const destino = document.getElementById("exibeResultados");
     destino.appendChild(containerKata);
 
     }
 
 
-// INICIO KATA 01    
+// INICIO KATA 01
 
 function kata1() {
-    // implemente o código do kata 1 aqui
+
     let arrayResult = [];
     for (let i = 1; i <=25; i++){
         arrayResult.push(i);
@@ -43,7 +44,7 @@ function kata1() {
 //INICIO KATA 02
 
 function kata2() {
-    // implemente o código do kata 2 aqui
+
     let arrayResult = [];
     for (let i = 25; i >= 1; i--){
         arrayResult.push(i);
@@ -60,7 +61,7 @@ function kata2() {
 //INICIO KATA 03
 
 function kata3() {
-    // implemente o código do kata 3 aqui
+
     let arrayResult = [];
     for (let i = -1; i >= -25; i--){
         arrayResult.push(i);
@@ -77,7 +78,7 @@ function kata3() {
 //INICIO KATA 04
 
 function kata4() {
-    // implemente o código do kata 4 aqui
+
     let arrayResult = [];
     for (let i = -25; i <= -1; i++){
         arrayResult.push(i);
@@ -94,14 +95,14 @@ function kata4() {
 //INICIO KATA 05
 
 function kata5() {
-    // implemente o código do kata 5 aqui
+
     let arrayResult = [];
     for (let i = 25; i >=-25; i-=2){
         arrayResult.push(i);
     }
-    
+
     showResults(arrayResult, 5);
-    
+
     return arrayResult;
 }
     kata5();
@@ -111,7 +112,7 @@ function kata5() {
 // INICIO KATA 06
 
 function kata6() {
-    // implemente o código do kata 6 aqui
+
     let arrayResult = [];
     for (let i = 1; i <=100; i++){
         if (i % 3 === 0){
@@ -130,12 +131,12 @@ function kata6() {
 //INICIO KATA 07
 
 function kata7() {
-    // implemente o código do kata 7 aqui
+
     let arrayResult = [];
     for (let i = 1; i <=100; i++){
         if ( i % 7 === 0 ){
             arrayResult.push(i);
-        } 
+        }
     }
 
     showResults(arrayResult, 7);
@@ -149,12 +150,12 @@ function kata7() {
 //INICIO KATA 08
 
 function kata8() {
-    // implemente o código do kata 8 aqui
+
     let arrayResult = [];
     for (let i = 100; i >= 1; i--){
         if ( i % 7 === 0 || i % 3 === 0 ){
             arrayResult.push(i);
-        } 
+        }
     }
 
     showResults(arrayResult, 8);
@@ -168,12 +169,12 @@ function kata8() {
 //INICIO KATA 09
 
 function kata9() {
-    // implemente o código do kata 9 aqui
+
     let arrayResult = [];
     for (let i = 1; i <= 100; i++){
         if ( i % 2 !== 0 && i % 5 === 0 ){
             arrayResult.push(i);
-        } 
+        }
     }
 
     showResults(arrayResult, 9);
@@ -187,7 +188,6 @@ function kata9() {
 //INICIO KATA 10
 
 function kata10() {
-    // implemente o código do kata 10 aqui
 
     showResults(sampleArray, 10);
 
@@ -200,12 +200,12 @@ function kata10() {
 //INICIO KATA 11
 
 function kata11() {
-    // implemente o código do kata 11 aqui
+
     let arrayResult = [];
     for (let i = 0; i <= sampleArray.length-1; i++){
         if ( sampleArray[i] % 2 === 0 ){
             arrayResult.push(sampleArray[i]);
-        } 
+        }
     }
 
     showResults(arrayResult, 11);
@@ -219,12 +219,12 @@ function kata11() {
 //INICIO KATA 12
 
 function kata12() {
-    // implemente o código do kata 12 aqui
+
     let arrayResult = [];
     for (let i = 0; i <= sampleArray.length-1; i++){
         if ( sampleArray[i] % 2 !== 0 ){
             arrayResult.push(sampleArray[i]);
-        } 
+        }
     }
 
     showResults(arrayResult, 12);
@@ -238,12 +238,12 @@ function kata12() {
 //INICIO KATA 13
 
 function kata13() {
-    // implemente o código do kata 13 aqui
+
     let arrayResult = [];
     for (let i = 0; i <= sampleArray.length-1; i++){
         if ( sampleArray[i] % 8 === 0 ){
             arrayResult.push(sampleArray[i]);
-        } 
+        }
     }
 
     showResults(arrayResult, 13);
@@ -257,7 +257,7 @@ function kata13() {
 //INICIO KATA 14
 
 function kata14() {
-    // implemente o código do kata 14 aqui
+
     let arrayResult = [];
     for (let i = 0; i <= sampleArray.length-1; i++){
         arrayResult.push(sampleArray[i]*sampleArray[i]);
@@ -274,7 +274,7 @@ function kata14() {
 //INICIO KATA 15
 
 function kata15() {
-    // implemente o código do kata 15 aqui
+
     let arrayResult = [];
     let aux = 0;
     for (let i = 1; i <= 20; i++){
@@ -293,7 +293,7 @@ function kata15() {
 //INICIO KATA 16
 
 function kata16() {
-    // implemente o código do kata 16 aqui
+
     let arrayResult = [];
     let aux = 0;
     for (let i = 0; i <= sampleArray.length-1; i++){
@@ -312,7 +312,7 @@ function kata16() {
 //INICIO KATA 17
 
 function kata17() {
-    // implemente o código do kata 17 aqui
+
     let arrayResult = [];
     let menor = 0;
     for(let i = 0; i <= sampleArray.length-1; i++){
@@ -336,7 +336,7 @@ function kata17() {
 //INICIO KATA 18
 
 function kata18() {
-    // implemente o código do kata 18 aqui
+
     let arrayResult = [];
     let maior = 0;
     for(let i = 0; i <= sampleArray.length-1; i++){
@@ -368,7 +368,7 @@ let containerKataBonus;
 let compri = 100;
 
 function showBlocks(kataB, numKataBonus) {
-    // implemente o código do kata bonus 1 aqui
+    // ShowBlocks katas Bonus
     containerKataBonus = document.createElement("Div");
     containerKataBonus.className = "containerKataBonus";
 
@@ -385,7 +385,8 @@ function showBlocks(kataB, numKataBonus) {
 
 }
 
-function kataBonus1(elemento){  
+function kataBonus1(elemento){
+    //  kata bonus 1
     let newBlockItem = document.createElement("span");
         newBlockItem.className = "blockItem";
         newBlockItem.innerText = elemento;
@@ -395,9 +396,9 @@ function kataBonus1(elemento){
     showBlocks(kataBonus1, 1);
 
 function kataBonus2(elemento) {
-    // implemente o código do kata bonus 2 aqui
+    //  kata bonus 2
         compri +=5;
-        
+
         let newBlockItem = document.createElement("span");
         newBlockItem.className = "blockItem";
         newBlockItem.style.width += compri+"px";
@@ -408,7 +409,7 @@ function kataBonus2(elemento) {
     showBlocks(kataBonus2, 2);
 
 function kataBonus3(elemento) {
-    // implemente o código do kata bonus 3 aqui        
+    //  kata bonus 3
     let newBlockItem = document.createElement("span");
     newBlockItem.className = "blockItem";
     newBlockItem.style.width = sampleArray[elemento-1]+"px";
@@ -419,7 +420,7 @@ function kataBonus3(elemento) {
     showBlocks(kataBonus3, 3);
 
 function kataBonus4(elemento) {
-    // implemente o código do kata bonus 4 aqui
+    //  kata bonus 4
     let newBlockItem = document.createElement("span");
     newBlockItem.className = "blockItem";
     newBlockItem.style.width = sampleArray[elemento-1]+"px";
@@ -434,7 +435,7 @@ function kataBonus4(elemento) {
     showBlocks(kataBonus4, 4);
 
 function kataBonus5(elemento) {
-    // implemente o código do kata bonus 5 aqui
+    //  kata bonus 5
     let newBlockItem = document.createElement("span");
     newBlockItem.className = "blockItem";
     newBlockItem.style.width = sampleArray[elemento-1]+"px";
